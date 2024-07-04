@@ -5,22 +5,23 @@ Requirements
 Python 3.x
 Matplotlib
 Numpy
+
 Installation
 Clone the repository:
 
-bash
+
 Copiar código
 git clone https://github.com/yourusername/fibonacci-squares-visualization.git
 cd fibonacci-squares-visualization
 Install the required packages:
 
-bash
+
 Copiar código
 pip install matplotlib numpy
 Usage
 Run the script:
 
-bash
+
 Copiar código
 python fibonacci_squares.py
 The script will generate a plot with squares based on the Fibonacci sequence.
@@ -36,6 +37,7 @@ Here is a simplified version of the script:
 
 python
 Copiar código
+
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -61,6 +63,7 @@ if __name__ == "__main__":
         ax.set_ylim(-0.1, max(sizes) + 0.1)
         ax.axis('off')
     plt.show()
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
